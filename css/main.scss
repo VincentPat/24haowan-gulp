@@ -1,0 +1,18 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	background: #FAFAFA;
+	padding: 40px;
+	color: #444;
+	ul {
+		li {
+			line-height: 30px;
+			padding-bottom: 10px;
+		}
+	}
+}

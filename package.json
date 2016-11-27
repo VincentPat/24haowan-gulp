@@ -1,0 +1,33 @@
+{
+  "name": "24haowan-gulp",
+  "version": "1.0.0",
+  "description": "gulp demo for 24haowan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "24haowan-gulp"
+  },
+  "keywords": [
+    "工作流",
+    "构建工具"
+  ],
+  "author": "Vincent",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-file-include": "^1.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-collector": "^1.0.5",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gulp Test</title>
+	<script src="//24haowan-cdn.shanyougame.com/public/js/vue.min.js"></script>
+	<script src="//24haowan-cdn.shanyougame.com/public/js/require.min.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		@@include("component/title.html")
+		<div class="dependencies">
+			<h4>Dependencies:</h4>
+			<ul>
+				<li v-for="item in dependencies">
+					<div>{{ $key }}</div>
+					<div>{{ item }}</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
