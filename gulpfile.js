@@ -26,17 +26,6 @@ gulp.task('sass', function () {
 });
 
 /**
- * reload-style
- * 结合 watch 任务，无刷新CSS注入
- */
-gulp.task('reload-style', ['sass'], function() {
-	gulp.start('rev');
-	return gulp.src(['dist/css/**/*.css'])
-		.pipe(cached('style'))
-		.pipe(browserSync.reload({stream: true})); // 使用无刷新 browserSync 注入 CSS
-});
-
-/**
  * script
  * 压缩js文件
  */
