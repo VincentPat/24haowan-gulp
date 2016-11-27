@@ -33,7 +33,7 @@ Attention: Default task will clean the dist directory first.
 $ gulp
 ```
 ##### Watch File Change
-It's open a new page automatically and refresh when the files you are watching change.
+It will open a new page automatically and refresh when the files you are watching change.
 ```
 $ gulp watch
 ```
