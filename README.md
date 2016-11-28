@@ -17,7 +17,7 @@
 - gulp-sass
 - gulp-uglif
 
-### Get Started
+### Getting Started
 ##### Clone
 ```
 $ git clone git@github.com:GuangZhouShanyouGame/24haowan-gulp.git
