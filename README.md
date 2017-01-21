@@ -38,7 +38,7 @@ It will open a new page automatically and refresh when the files you are watchin
 $ gulp watch
 ```
 ### Example Screen Shot
-![image](https://raw.githubusercontent.com/GuangZhouShanyouGame/24haowan-gulp/master/screen-shot.png?token=AMlX79bSF_lZ_mEfyP55vJROmgunrLuUks5YQ582wA%3D%3D)
+![image](./screen-shot.png)
 ### Tasks
 #### sass
 - 自动补全前缀（主要是-webkit-）
